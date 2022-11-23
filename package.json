@@ -1,0 +1,27 @@
+{
+  "name": "demo-jest-yatt-pipe",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "jest --coverage --coverageDirectory=output/coverage/jest"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "jest-junit": "^15.0.0"
+  },
+  "jest": {
+    "coverageReporters": [
+      "text"
+    ],
+    "reporters": [
+      "default",
+      "jest-junit"
+    ]
+  },
+  "jest-junit": {
+    "outputDirectory": "./results",
+    "outputName": "jest-results.xml",
+    "usePathForSuiteName": "true"
+  }
+}
