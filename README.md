@@ -4,7 +4,7 @@ A simple calculator demo with Jest testing.
 
 ## Requirements
 
-- Node.js >= 18.0.0
+- Node.js >= 19.0.0
 - npm (please use npm as the package manager)
 
 ## Installation
