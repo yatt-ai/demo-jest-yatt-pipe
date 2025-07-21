@@ -8,7 +8,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        node-version: [16.x]
+        node-version: [20.x]
         os: [ubuntu-latest]
     steps:
       - name: checkout
@@ -20,10 +20,3 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run test
-      - run: |
-          npx yatt-pipe \
-            -c creds.json \
-            -s results/jest-results.xml \
-            -T junit \
-            -t yatt \
-            -p
