@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="3" failures="0" errors="0" time="0.157">
-  <testsuite name="calculator.test.js" errors="0" failures="0" skipped="0" timestamp="2025-07-17T11:59:12" time="0.126" tests="3">
+<testsuites name="jest tests" tests="3" failures="0" errors="0" time="0.075">
+  <testsuite name="tests/calculator.test.js" errors="0" failures="0" skipped="0" timestamp="2025-07-23T07:40:59" time="0.054" tests="3">
     <testcase classname="Calculator tests adding 1 + 2 should return 3" name="Calculator tests adding 1 + 2 should return 3" time="0">
     </testcase>
     <testcase classname="Calculator tests subtracting 2 from 10 should return 8" name="Calculator tests subtracting 2 from 10 should return 8" time="0">
